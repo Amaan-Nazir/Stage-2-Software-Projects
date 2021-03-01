@@ -3,8 +3,8 @@
 <head>
 <meta charset=”utf-8”>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Recipes Galore | Contact Us</title>
-<!-- <link rel="icon" href="img/example.png" type="image/png"/> icon image goes here-->
+<title>Recipes Galore | Login</title>
+<link rel="icon" href="Images/recipes-galore-logo.png" type="image/png"/>
 <link rel="stylesheet" href="css/desktop.css" media="only screen">
 </head>
 <body>
@@ -12,16 +12,16 @@
     <header>
       <div class="header">
         <div class="header-logo-title-account">
-          <img src="https://via.placeholder.com/150"> <!-- This is placeholder image where logo goes-->
-          <h1>Contact Us</h1>
+          <img src="Images/recipes-galore-logo.png">
+          <h1>Login</h1>
           <div class="account">
-            <img src="https://via.placeholder.com/100"> <!-- This is placeholder image where signup/login goes-->
-            <a href="example.html">Log in or Sign Up</a>
+            <img src="Images/not-logged-in.png" width="120px" height="120px" class="UserLoggedOut">
+            <a id="LoginOrSignup" href="Login.html">Log in or Sign Up</a>
           </div>
         </div>
         <div class="navigation">
           <a href="Home.html">Home</a>
-          <a href="Hottest.html">Hottest</a>
+          <a href="example.html">Hottest</a>
           <div class="dropdown-nav">
             <a class="dropdown-categories" href="example.html">Categories</a>
             <div class="dropdown-content">
@@ -45,41 +45,29 @@
               </div>
             </div>
           </div>
-          <a href="Contact.html">Contact Us</a>
-          <input type="text" placeholder="Search...">
+          <a href="ContactUs.html">Contact Us</a>
+          <input class="searchBox" type="text" placeholder="Search..." >
         </div>
       </div>
     </header>
-<section>
-<div class = "tag">
-  <h4>Please fill in the below form and we will contact you as soon as possible:</h4>
-</div>
-
- 
-<form action = "Contact.html">
-        <div>
-            <label for="yourName">Name:</label>
-            <input type="text" name="yourName" id="yourName"
-            placeholder="Please Add Your Name">
-            </div>
-            <div>
-            <label for="email">Email:</label>
-            <input type="email" name="email" id="email"
-            placeholder="Email Address">
-            </div>
-            <div>
-            <label for="tel">Telephone:</label>
-            <input type="tel" name="tel" id="tel" placeholder="Telephone Number">
-            </div>
-            <div>
-            <label for="message">Message:</label>
-            <textarea name="message" id="message" placeholder="Your Message"></textarea>
-            </div>
-            <div id="submitBtn">
-            <input type="submit" value="Send">
-            </div>            
- </form>
-</section>
+    <section>
+        <div class="login-container">
+            <form class="log-in-form">
+                <p>Please enter your email address and password to log in.</p>
+                <div class="log-in-details">
+                  <label>Email Address:</label>
+                  <input type="text">
+                </div>
+                <div class="log-in-details">
+                  <label>Password:</label>
+                  <input type="text">
+                </div>
+                <button type="button">Log In</button>
+                <p>Don't have an account? <a href="SignUp.html">Sign Up</a></p>
+                <img src="Images/recipes-galore-logo.png" height="100px" width="100px;">
+              </form>
+        </div>
+    </section>
     <footer>
       <p>Copyright &copy; 2021 Recipe Galore</p>
     </footer>

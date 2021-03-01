@@ -3,8 +3,8 @@
 <head>
 <meta charset=”utf-8”>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Recipes Galore | Hottest Recipes</title>
-<!-- <link rel="icon" href="img/example.png" type="image/png"/> icon image goes here-->
+<title>Recipes Galore | Contact Us</title>
+<link rel="icon" href="Images/recipes-galore-logo.png" type="image/png"/>
 <link rel="stylesheet" href="css/desktop.css" media="only screen">
 </head>
 <body>
@@ -12,16 +12,16 @@
     <header>
       <div class="header">
         <div class="header-logo-title-account">
-          <img src="https://via.placeholder.com/150"> <!-- This is placeholder image where logo goes-->
-          <h1>Hottest</h1>
+          <img src="Images/recipes-galore-logo.png">
+          <h1>Contact Us</h1>
           <div class="account">
-            <img src="https://via.placeholder.com/100"> <!-- This is placeholder image where signup/login goes-->
-            <a href="example.html">Log in or Sign Up</a>
+            <img src="Images/not-logged-in.png" width="120px" height="120px" class="UserLoggedOut">
+            <a id="LoginOrSignup" href="Login.html">Log in or Sign Up</a>
           </div>
         </div>
         <div class="navigation">
           <a href="Home.html">Home</a>
-          <a href="Hottest.html">Hottest</a>
+          <a href="example.html">Hottest</a>
           <div class="dropdown-nav">
             <a class="dropdown-categories" href="example.html">Categories</a>
             <div class="dropdown-content">
@@ -45,12 +45,30 @@
               </div>
             </div>
           </div>
-          <a href="Contact.html">Contact Us</a>
-          <input type="text" placeholder="Search...">
+          <a href="ContactUs.html">Contact Us</a>
+          <input class="searchBox" type="text" placeholder="Search..." >
         </div>
       </div>
     </header>
-    
+    <section>
+        <div class="contact-us-container">
+          <form class="contact-us-form">
+            <div class="contact-us-details">
+              <label>First Name:</label>
+              <input type="text">
+            </div>
+            <div class="contact-us-details">
+              <label>Email Address:</label>
+              <input type="text">
+            </div>
+            <div class="contact-us-details">
+              <label>Message:</label>
+              <input class="message-contact-us" type="text">
+            </div>
+            <button class="submit-contact-us"type="button">Submit</button>
+        </form>
+      </div>
+    </section>
     <footer>
       <p>Copyright &copy; 2021 Recipe Galore</p>
     </footer>
