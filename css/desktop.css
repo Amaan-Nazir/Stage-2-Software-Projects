@@ -100,3 +100,15 @@ form{
 h1{
     color: white;
 }
+.UserLoggedOut{
+    padding-left: 90px;
+}
+#LoginOrSignup{
+text-align: center;
+}
+.header{
+    border-bottom: 5px solid white;;
+}
+.left-panel{
+    color: white;
+}
