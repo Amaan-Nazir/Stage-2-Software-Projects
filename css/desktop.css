@@ -9,7 +9,6 @@
 /* Text, font weight, size, style etc and colours*/
 
 
-
 /* Logo, title and account */
 .header a {
     text-decoration: none;
@@ -38,6 +37,7 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    margin-left: 150px;
 }
 .navigation a {
     padding: 20px;
@@ -100,9 +100,6 @@ form{
 h1{
     color: white;
 }
-.UserLoggedOut{
-    padding-left: 90px;
-}
 #LoginOrSignup{
 text-align: center;
 }
@@ -111,4 +108,13 @@ text-align: center;
 }
 .left-panel{
     color: white;
+    margin-left: 50px;
+}
+
+.account{
+    margin-right: 150px;
+    align-items: center;
+}
+.right-panel{
+    margin-right: 75px;
 }
