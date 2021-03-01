@@ -2,7 +2,9 @@
 #container {
     width: auto;
     margin: auto;
+    background-color: #260E5B;
 }
+
 
 /* Text, font weight, size, style etc and colours*/
 
@@ -11,6 +13,7 @@
 /* Logo, title and account */
 .header a {
     text-decoration: none;
+    color: white;
 }
 .header-logo-title-account {
     display: flex;
@@ -93,4 +96,7 @@ form{
 }
 .tag {
     text-align: center;
+}
+h1{
+    color: white;
 }
